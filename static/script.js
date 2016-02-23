@@ -1,40 +1,40 @@
 
 
-var eventOutputContainer = document.getElementById("message");
-var eventSrc = new EventSource("/eventSource");
+// var eventOutputContainer = document.getElementById("message");
+// var eventSrc = new EventSource("/eventSource");
 
-eventSrc.onmessage = function(e) {
-	console.log(e);
-	eventOutputContainer.innerHTML = e.data;
-};
+// eventSrc.onmessage = function(e) {
+// 	console.log(e);
+// 	eventOutputContainer.innerHTML = e.data;
+// };
 
 var tooltip = d3.select("div.tooltip");
 var tooltip_title = d3.select("#title");
-var tooltip_price = d3.select("#price");
+var tooltip_count = d3.select("#price");
 
 
-var map = L.map('map').setView([22.539029, 114.062076], 16);
+var map = L.map('map').setView([39.8938, 116.384390666], 16);
 
 //this is the OpenStreetMap tile implementation
 
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
+// L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+// 	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+// }).addTo(map);
 
 //uncomment for Mapbox implementation, and supply your own access token
 
-// L.tileLayer('https://api.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}.png?access_token={accessToken}', {
-// 	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-// 	mapid: 'mapbox.light',
-// 	accessToken: [INSERT YOUR TOKEN HERE!]
-// }).addTo(map);
+L.tileLayer('https://api.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}.png?access_token={accessToken}', {
+	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+	mapid: 'mapbox.light',
+	accessToken: 'pk.eyJ1IjoiZGFuaWxuYWd5IiwiYSI6ImVobm1tZWsifQ.CGQL9qrfNzMYtaQMiI-c8A'
+}).addTo(map);
 
 //create variables to store a reference to svg and g elements
 
 
 
-var svg_overlay = d3.select(map.getPanes().overlayPane).append("svg");
-var g_overlay = svg_overlay.append("g").attr("class", "leaflet-zoom-hide");
+// var svg_overlay = d3.select(map.getPanes().overlayPane).append("svg");
+// var g_overlay = svg_overlay.append("g").attr("class", "leaflet-zoom-hide");
 
 var svg = d3.select(map.getPanes().overlayPane).append("svg");
 var g = svg.append("g").attr("class", "leaflet-zoom-hide");
@@ -87,7 +87,7 @@ function updateData(){
 			.on("mouseover", function(d){
 				tooltip.style("visibility", "visible");
 				tooltip_title.text(d.properties.name);
-				tooltip_price.text("Price: " + d.properties.price);
+				tooltip_count.text("count: " + d.properties.count);
 			})
 			.on("mousemove", function(){
 				tooltip.style("top", (d3.event.pageY-10)+"px")
@@ -103,32 +103,32 @@ function updateData(){
 		update();
 		map.on("viewreset", update);
 
-		if (checked == true){
+		// if (checked == true){
 
-			var topleft = projectPoint(lat2, lng1);
+		// 	var topleft = projectPoint(lat2, lng1);
 
-			svg_overlay.attr("width", w)
-				.attr("height", h)
-				.style("left", topleft.x + "px")
-				.style("top", topleft.y + "px");
+		// 	svg_overlay.attr("width", w)
+		// 		.attr("height", h)
+		// 		.style("left", topleft.x + "px")
+		// 		.style("top", topleft.y + "px");
 
-			var rectangles = g_overlay.selectAll("rect").data(data.analysis);
-			rectangles.enter().append("rect");
+		// 	var rectangles = g_overlay.selectAll("rect").data(data.analysis);
+		// 	rectangles.enter().append("rect");
 
-			rectangles
-				.attr("x", function(d) { return d.x; })
-				.attr("y", function(d) { return d.y; })
-				.attr("width", function(d) { return d.width; })
-				.attr("height", function(d) { return d.height; })
-		    	.attr("fill-opacity", ".2")
-		    	.attr("fill", function(d) { return "hsl(" + Math.floor((1-d.value)*250) + ", 100%, 50%)"; });
+		// 	rectangles
+		// 		.attr("x", function(d) { return d.x; })
+		// 		.attr("y", function(d) { return d.y; })
+		// 		.attr("width", function(d) { return d.width; })
+		// 		.attr("height", function(d) { return d.height; })
+		//     	.attr("fill-opacity", ".2")
+		//     	.attr("fill", function(d) { return "hsl(" + Math.floor((1-d.value)*250) + ", 100%, 50%)"; });
 		
-		};
+		// };
 
 		// function to update the data
 		function update() {
 
-			g_overlay.selectAll("rect").remove()
+			// g_overlay.selectAll("rect").remove()
 
 			// get bounding box of data
 		    var bounds = path.bounds(data),
@@ -149,7 +149,7 @@ function updateData(){
 		    circles
 		    	.attr("cx", function(d) { return projectPoint(d.geometry.coordinates[0], d.geometry.coordinates[1]).x; })
 		    	.attr("cy", function(d) { return projectPoint(d.geometry.coordinates[0], d.geometry.coordinates[1]).y; })
-    			.attr("r", function(d) { return Math.pow(d.properties.price,.3); });
+    			.attr("r", function(d) { return Math.pow(d.properties.countNorm,.1) * 20; });
 		};
 	});
 
