@@ -107,7 +107,7 @@ function updateData(){
 
 		// 	var topleft = projectPoint(lat2, lng1);
 
-		// 	svg_overlay.attr("width", w)
+		// 	svg_overlay.attr("width", w) 
 		// 		.attr("height", h)
 		// 		.style("left", topleft.x + "px")
 		// 		.style("top", topleft.y + "px");
