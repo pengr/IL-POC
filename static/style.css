@@ -47,3 +47,19 @@ em{
   color: red;
   font-weight: bold;
 }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.y.axis path {
+  display: none;
+}
+
+.y.axis line {
+  stroke: #777;
+  stroke-dasharray: 2,2;
+}

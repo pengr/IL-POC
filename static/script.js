@@ -70,6 +70,75 @@ function updateData(){
 	var list = document.getElementById("typeSelection");
 	var choice = list.options[list.selectedIndex].value;
 
+	// GENERATE AXIS (DUMB FOR NOW)
+	var margin = {top: 20, right: 0, bottom: 20, left: 0},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+	var formatNumber = d3.format(".1f");
+
+	var y = d3.scale.linear()
+	    .domain([0, 1e6])
+	    .range([height, 0]);
+
+	var x = d3.time.scale()
+	    .domain([new Date(2010, 7, 1), new Date(2012, 7, 1)])
+	    .range([0, width]);
+
+	var xAxis = d3.svg.axis()
+	    .scale(x)
+	    .ticks(d3.time.years)
+	    .tickSize(6, 0)
+	    .orient("bottom");
+
+	var yAxis = d3.svg.axis()
+	    .scale(y)
+	    .tickSize(width)
+	    .tickFormat(formatCurrency)
+	    .orient("right");
+
+	var svg2 = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  	.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	var gy = svg.append("g")
+    .attr("class", "y axis")
+    .call(yAxis)
+    .call(customAxis);
+
+	var gx = svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis);
+
+	setTimeout(function() {
+		  y.domain([0, 3e6]);
+
+		  gy.transition()
+		      .duration(2500)
+		      .call(yAxis)
+		    .selectAll("text") // cancel transition on customized attributes
+		      .tween("attr.x", null)
+		      .tween("attr.dy", null);
+
+		  gy.call(customAxis);
+	}, 1000);
+
+	function customAxis(g) {
+		  g.selectAll("text")
+		      .attr("x", 4)
+		      .attr("dy", -4);
+	}
+
+		function formatCurrency(d) {
+		  var s = formatNumber(d / 1e6);
+		  return d === y.domain()[1]
+		      ? "$" + s + " million"
+		      : s;
+	}
+
 	// SEND USER CHOICES FOR ANALYSIS TYPE, CELL SIZE, HEAT MAP SPREAD, ETC. TO SERVER
 	request = "/getData?lat1=" + lat1 + "&lat2=" + lat2 + "&lng1=" + lng1 + "&lng2=" + lng2 + "&w=" + w + "&h=" + h + "&cell_size=" + cell_size + "&analysis=" + checked + "&analysisType=" + choice
 
@@ -122,7 +191,7 @@ function updateData(){
 		// 		.attr("height", function(d) { return d.height; })
 		//     	.attr("fill-opacity", ".2")
 		//     	.attr("fill", function(d) { return "hsl(" + Math.floor((1-d.value)*250) + ", 100%, 50%)"; });
-		
+
 		// };
 
 		// function to update the data
