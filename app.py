@@ -108,7 +108,7 @@ def getData():
 
 	fileName = "weibo_dashilar_withCounts.txt"
 
-	with open(currentDirectory +  "data\\" + fileName, 'r') as f:
+	with open(currentDirectory +  "data/" + fileName, 'r') as f:
 		records = f.readlines()
 		records = [x.strip() for x in records]
 		titles = records.pop(0).split(';')
