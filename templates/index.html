@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Impact Learning Proof of Concept</title>
+	<title>Impact Learning Proof of Concept II</title>
 	<script type="text/javascript" src="./static/lib/d3.js"></script>
 	<script type="text/javascript" src="./static/lib/leaflet.js"></script>
 	<link rel="stylesheet" href="./static/lib/leaflet.css" />
@@ -11,18 +11,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 </head>
-<body>
-
+<body>   
+    
 	<div id="map"></div>
 
-	<div class="tooltip">
+	<div class="tooltip">        
 		<p class="tooltip-text" id="title">This is the title</p>
 		<p class="tooltip-text" id="price">This is the price</p>
+        <p class="tooltip-text" id="popularity">popularity</p>
 	</div>
 
 	<div class="menu">
-		<p><h4>Impact Learning</h4></p>
-		<form>
+		<p><h4>Impact Learning II</h4></p>
+		<a href="/getData?w=1&h=30&cell_size=7">Test Get Data from txt</a>
+        <form>
 			<!-- IMPLEMENT NEW USER INTERFACE ELEMENTS HERE -->
 			<p><select id="typeSelection">
 				<option value="heatmap">Heat map</option>

@@ -1,19 +1,12 @@
-
-
-// var eventOutputContainer = document.getElementById("message");
-// var eventSrc = new EventSource("/eventSource");
-
-// eventSrc.onmessage = function(e) {
-// 	console.log(e);
-// 	eventOutputContainer.innerHTML = e.data;
-// };
-
 var tooltip = d3.select("div.tooltip");
 var tooltip_title = d3.select("#title");
 var tooltip_count = d3.select("#price");
+var tooltip_popularity = d3.select("#popularity");
 
 
-var map = L.map('map').setView([39.8938, 116.384390666], 16);
+zoomLevel = 16
+
+var map = L.map('map').setView([39.8938, 116.384390666], zoomLevel);
 
 //this is the OpenStreetMap tile implementation
 
@@ -88,6 +81,7 @@ function updateData(){
 				tooltip.style("visibility", "visible");
 				tooltip_title.text(d.properties.name);
 				tooltip_count.text("count: " + d.properties.count);
+                tooltip_popularity.text("papularity: " + d.properties.popularity);
 			})
 			.on("mousemove", function(){
 				tooltip.style("top", (d3.event.pageY-10)+"px")
@@ -96,34 +90,13 @@ function updateData(){
 			.on("mouseout", function(){
 				tooltip.style("visibility", "hidden");
 			})
-			// .attr("fill", function(d) { return "hsl(" + Math.floor((1-d.properties.priceNorm)*250) + ", 100%, 50%)"; })
+			
 		;
 
 		// call function to update geometry
 		update();
 		map.on("viewreset", update);
 
-		// if (checked == true){
-
-		// 	var topleft = projectPoint(lat2, lng1);
-
-		// 	svg_overlay.attr("width", w) 
-		// 		.attr("height", h)
-		// 		.style("left", topleft.x + "px")
-		// 		.style("top", topleft.y + "px");
-
-		// 	var rectangles = g_overlay.selectAll("rect").data(data.analysis);
-		// 	rectangles.enter().append("rect");
-
-		// 	rectangles
-		// 		.attr("x", function(d) { return d.x; })
-		// 		.attr("y", function(d) { return d.y; })
-		// 		.attr("width", function(d) { return d.width; })
-		// 		.attr("height", function(d) { return d.height; })
-		//     	.attr("fill-opacity", ".2")
-		//     	.attr("fill", function(d) { return "hsl(" + Math.floor((1-d.value)*250) + ", 100%, 50%)"; });
-		
-		// };
 
 		// function to update the data
 		function update() {
@@ -146,10 +119,17 @@ function updateData(){
 		    g   .attr("transform", "translate(" + (-topLeft[0] + buffer) + "," + (-topLeft[1] + buffer) + ")");
 
 		    // update circle position and size
+            
+            CircleSize = 20*Math.pow(1.5,map.getZoom())/Math.pow(1.5,zoomLevel)
 		    circles
 		    	.attr("cx", function(d) { return projectPoint(d.geometry.coordinates[0], d.geometry.coordinates[1]).x; })
 		    	.attr("cy", function(d) { return projectPoint(d.geometry.coordinates[0], d.geometry.coordinates[1]).y; })
-    			.attr("r", function(d) { return Math.pow(d.properties.countNorm,.1) * 20; });
+    			.attr("r", function(d) { return Math.pow(d.properties.countNorm,.1) * CircleSize; })
+                .style("fill", function(d) { 
+                    return "hsl(" + Math.floor((1-d.properties.countNorm)*250) + ", 100%, 50%)"; 
+                })
+                ;
+                // .style("fill", "black");
 		};
 	});
 
