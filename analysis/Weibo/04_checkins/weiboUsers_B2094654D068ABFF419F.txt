@@ -1,0 +1,6 @@
+time;id;text;uid;province;city;location;followers;friends
+Sun Aug 31 22:35:14 +0800 2014;3749759162384085;害怕即将开始一个人的生活[可怜] http://t.cn/8k6GjLE;1829911103;65;1;新疆 乌鲁木齐;43;46;284;[u'6d123a3fjw1ejw6yzlak6j218g0p0wif']
+Sat Jun 22 19:20:41 +0800 2013;3592071485504846;因为失策跑进川菜馆吃饭，微辣我都受不了，可怜的妹把桌上点的菜一个人全吃了。。。[哈哈][偷笑] 我在这里:http://t.cn/zj9bMXL;2364592920;44;13;广东 惠州;591;511;2880;[u'8cf0d318jw1e5x4rztqkcj20np0hsdgy']
+Sun Jun 09 13:44:07 +0800 2013;3587275747405096;北京。美食篇。第四站。老北京炸醬麵。 我在这里:http://t.cn/zj9bMXL;1744997765;44;1;广东 广州;1371;642;206;[u'68028d85jw1e5hu1dp47sj218g18g4ae']
+Sun Jun 09 13:42:33 +0800 2013;3587275344932676;油菜，炸灌肠（吃完了还不知道是什么），芝麻香芋卷，老北京炸酱面，炸春卷（红豆味） 我在这里:http://t.cn/zj9bMXL;1583151027;44;1;广东 广州;951;499;287;[u'5e5cf7b3jw1e5hsyd271xj20dc0hs0ur', u'5e5cf7b3jw1e5ht8sya02j20dc0hsmzb', u'5e5cf7b3jw1e5hta8cfa9j20dc0hsabk', u'5e5cf7b3jw1e5hteu11wnj20dc0hswg1', u'5e5cf7b3jw1e5htgiiz9ej20dc0hsjt7', u'5e5cf7b3jw1e5htk7da1mj20dc0hstaj', u'5e5cf7b3jw1e5htma09lij20dc0hsq3x']
+Sat Nov 03 22:41:08 +0800 2012;3508410324914565;北京下雪了 我在这里:#阿来客栈(大栅栏西街)# http://t.cn/zleiPIg;1668171251;33;9;浙江 舟山;399;272;569;[]

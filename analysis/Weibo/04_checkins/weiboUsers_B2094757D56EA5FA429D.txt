@@ -1,0 +1,7 @@
+time;id;text;uid;province;city;location;followers;friends
+Sat Jul 18 03:39:28 +0800 2015;3865799846355010;好恶心啊～[挖鼻] http://t.cn/8k6GuH4;2193572063;11;1000;北京;1793;231;1082;[u'82bf40dfjw1eu6e2gut2fj20xc18gqh7', u'82bf40dfjw1eu6e2bixfgj20xc18g7ix']
+Wed Jul 08 10:30:45 +0800 2015;3862279470763769;谈scaling up #你圈弱爆了# http://t.cn/8k6GuH4;1475509674;11;8;北京 海淀区;133;120;443;[u'57f27daajw1etv5rdgx82j218g18gdxx']
+Mon Feb 15 13:59:34 +0800 2016;3942782122625834;小时候过春节最开心的几件事，现在红包是收不到了，只剩下其他两项了，不过现在最喜欢的是点心匣子[偷笑][偷笑][偷笑] http://t.cn/8k6GuH4;1568306024;11;4;北京 宣武区;526;735;4062;[u'5d7a7368jw1f0zz9use98j20b60go0vg', u'5d7a7368jw1f0zz9v5fivj20qo0zkn6x', u'5d7a7368jw1f0zz9uzudmj20xc0p0juo', u'5d7a7368jw1f0zz9vsubbj20zk0qodo9', u'5d7a7368jw1f0zz9whpirj20zk0qowml', u'5d7a7368jw1f0zz9wsvzfj20qo0zkn2l', u'5d7a7368jw1f0zz9x30f9j20qo0zkgrj']
+Sat Nov 30 17:26:10 +0800 2013;3650387112808537;遠東国际300多了，我咋记得200呢？一问错对面的什么旅社来着，50，天那太便宜了，出门在外对自已要狠点儿，就这儿了！ http://t.cn/8kbMrXt;3214740743;41;2;河南 开封;258;570;871;[u'bf9d0d07jw1eb36a37yz6j20lc0sgq4p']
+Wed Feb 06 16:27:54 +0800 2013;3542743248549008;铁树斜街72号。 我在这里:http://t.cn/zjK4CET;1428954131;11;4;北京 宣武区;7387;540;5961;[u'552c1c13jw1e1jrjwoieyj']
+Sun Dec 16 18:04:55 +0800 2012;3523923498768125;路过老谭故居而不自知，实大罪也！补签之。 我在这里：http://t.cn/zjK4CET;1217174427;400;18;海外 韩国;589;528;3981;[]

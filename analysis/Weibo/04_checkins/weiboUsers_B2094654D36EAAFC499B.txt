@@ -1,0 +1,5 @@
+time;id;text;uid;province;city;location;followers;friends
+Mon Dec 21 21:32:32 +0800 2015;3922602400028078;#探城记#澳门早餐 http://t.cn/R44gHUJ http://t.cn/8sssHgH;5727828194;100;1000;其他;6;52;94;[u'000739d4jw3ez7lrupenpj20j00e8dih']
+Sat Jan 31 12:37:14 +0800 2015;3805054014758295;这里惊奇的发现了！！！@fresh极客少年团 @尚雯婕 http://t.cn/8sssHgH;2898663874;400;1;海外 美国;1185;210;3000;[u'acc619c2jw1eosliw2yukj20hs0npjt4', u'acc619c2jw1eoslixfxjij20np0hsdgs', u'acc619c2jw1eoslizc9nhj20np0hswfs', u'acc619c2jw1eoslj0v652j20np0hs74s']
+Sat Jan 31 14:59:14 +0800 2015;3805089754328239;#fresh极客少年团# http://t.cn/8sssHgH;5396834414;11;1;北京 东城区;58;55;85;[u'005Tezamjw1eospmaa6zpj30np0hs75a', u'005Tezamjw1eospmamup3j30np0hsmxq', u'005Tezamjw1eospmb28wej30hs0np0ui', u'005Tezamjw1eospmbh0kaj30np0hsjsr']
+Fri Jun 14 12:30:07 +0800 2013;3589069060078448;！！其实旅游是件很累的事！！ 我在这里:http://t.cn/zj9UfIZ;1884667144;44;3;广东 深圳;506;199;201;[u'7055bd08jw1e5njxg5jhtj20hs0da0vz', u'7055bd08jw1e5njxxzgp2j20da0hs41t', u'7055bd08jw1e5njybnk9cj20hs0da0v7', u'7055bd08jw1e5njz95hyfj20hs0dawgq', u'7055bd08jw1e5njzx6q7bj20da0hs0uo']

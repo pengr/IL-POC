@@ -1,0 +1,12 @@
+time;id;text;uid;province;city;location;followers;friends
+Fri Oct 02 21:55:36 +0800 2015;3893617171042465;正宗老北京涮锅 http://t.cn/zRZHCSr;3518579947;61;1000;陕西;126;288;419;[u'd1b944ebjw1ewn4uic7bqj20xc18gk3b']
+Wed Aug 05 20:40:23 +0800 2015;3872579745796087;抱歉，此微博已被删除。查看帮助：http://t.cn/8sYl7Qb;;;;;;;;
+Fri May 08 19:12:46 +0800 2015;3840305176844306;跟着亲姐有肉吃[钱][钱][钱] http://t.cn/zRZHCSr;1964550273;13;1;河北 石家庄;183;251;630;[u'7518a881jw1erx22ghx94j20dc0hswh1']
+Fri Mar 20 22:07:38 +0800 2015;3822592181868346;一个人到北京旅旅游，路过东来顺，果断一个人的火锅涮起，景泰蓝的锅子，超级有特色哦～@新疆美食发现 http://t.cn/zRZHCSr;1945782861;100;1000;其他;360;296;1028;[u'73fa4a4djw1eqcjo7uzt5j20dc0hsad1', u'73fa4a4djw1eqcjo8te42j20dc0hsq4w', u'73fa4a4djw1eqcjo6xblyj20hs0dcq5w', u'73fa4a4djw1eqcjo9wbtvj20hs0dctax', u'73fa4a4djw1eqcjoas70lj20dc0hs40p', u'73fa4a4djw1eqcjobtdctj20dc0hsq50', u'73fa4a4djw1eqcjocnosrj20dc0hsjtl', u'73fa4a4djw1eqcjodt9o8j20dc0hs76j']
+Sat Aug 30 00:20:51 +0800 2014;3749060966307159;深夜福利 http://t.cn/zRZHCSr;1899031251;37;6;山东 烟台;275;103;242;[u'7130ead3jw1ejtysb9eenj218g0xc45k', u'7130ead3jw1ejtyscrxykj218g0xcwmx', u'7130ead3jw1ejtyseaz7oj218g0xcgsn', u'7130ead3jw1ejtysfronvj20xc18gn2s']
+Wed Aug 13 17:37:46 +0800 2014;3743161320755139;对这股🐑味有点…[互相膜拜][互相膜拜] http://t.cn/zRZHCSr;2918301820;32;2;江苏 无锡;224;251;269;[u'adf1c07cjw1ejb56rwloij20no0vktf9', u'adf1c07cjw1ejb56tew8mj20vk0vkgpz', u'adf1c07cjw1ejb570ix3cj20vk0vk42r', u'adf1c07cjw1ejb573gxnij20vk0vk0xj', u'adf1c07cjw1ejb5761swej20vk0vk0wm', u'adf1c07cjw1ejb578ikp6j20hs0nogqk']
+Wed Apr 01 16:23:27 +0800 2015;3826854215788788;点多了 http://t.cn/zRZHCSr;2106283152;23;6;黑龙江 大庆;3043;638;408;[u'7d8b5490jw1eqq58u6r9hj20dc0hsq5d', u'7d8b5490jw1eqq58vs5fbj20dc0hs40x', u'7d8b5490jw1eqq58svavlj20dc0hs0ut']
+Sun Nov 10 14:04:43 +0800 2013;3643088653966518;大栅栏#东来顺#店大欺人！为什么服务都得等顾客发脾气才能让客户满意！不光这一点，等到后来又问她们有没有和哪家银行有合作，服务员告诉我让我自己去前台收银问！我吃着饭还得自己过去问吗！这就是 大栅栏#东来顺#店的服务！真是让我越来越不想再去老店吃饭了！ 我在这里:http://t.cn/zRZHCSr;2624475621;11;1000;北京;864;633;12618;[]
+Sun Oct 20 17:04:19 +0800 2013;3635523706942137;东来顺吃涮羊肉了！ 我在这里:http://t.cn/zRZHCSr;2153815833;31;19;上海 南汇区;363;472;3649;[u'80609f19jw1e9rr8327v5j20dc0hsjt2']
+Sat Aug 17 16:40:19 +0800 2013;3612324848110838;涮羊肉。 我在这里:http://t.cn/zQEydCM;1830381982;31;17;上海 松江区;1382;317;6213;[u'6d19699ejw1e7pqvz4ov8j218g0xcn8t']
+Wed Aug 14 15:09:31 +0800 2013;3611214838430434;老北京铜火锅^O^好好吃的说 我在这里:http://t.cn/zQEydCM;2508864944;13;9;河北 沧州;152;136;321;[u'958a3db0jw1e7m7d7fnfxj20np0hs3zf']

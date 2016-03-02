@@ -1,0 +1,2 @@
+time;user;text;score1;score2;score3
+02-24;BOB8486;里面都是出租给公司办公，有点像旅馆改造的。;;;

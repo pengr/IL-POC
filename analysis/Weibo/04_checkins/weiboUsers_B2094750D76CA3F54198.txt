@@ -1,0 +1,8 @@
+time;id;text;uid;province;city;location;followers;friends
+Wed Jan 27 22:08:04 +0800 2016;3936019692958163;老闆說下次可以做''撥魚兒''吃～特別好，不止吃到好吃的這一件事兒，嗯，特別好😊 http://t.cn/z8ek6x3;1772767644;11;8;北京 海淀区;970;380;4188;[u'69aa499cjw1f0eep59pb1j21z41z4b29', u'69aa499cjw1f0eep94i9bj21z41z4hdt', u'69aa499cjw1f0eepdls4yj21se1sekjl', u'69aa499cjw1f0eeph19mpj21l21l2qs8', u'69aa499cjw1f0eep1i2g5j21z41z41ky', u'69aa499cjw1f0eepkxslij21sb1uvb29']
+Wed Jan 27 22:11:58 +0800 2016;3936020670672724;乖乖是長腿小公舉😂 http://t.cn/z8ek6x3;1772767644;11;8;北京 海淀区;970;380;4188;[u'69aa499cjw1f0eeu1451fj21vj1vju0x', u'69aa499cjw1f0eetuboddj21pt1pub29', u'69aa499cjw1f0eeuahrpmj21z41z47wi']
+Fri Mar 27 19:51:50 +0800 2015;3825094717681123;大栅栏的老店了[馋嘴][馋嘴]味道非常家常，吃着特顺口儿[馋嘴][馋嘴]就是菜量少点 http://t.cn/z8ek6x3;2120129563;11;1;北京 东城区;2094;399;25752;[u'7e5e9c1bjw1eqkj3x3g05j20xc18g16r', u'7e5e9c1bjw1eqkj3xr0kej218g0xc4ez', u'7e5e9c1bjw1eqkj3yiyzlj218g0xcdy8']
+Wed Sep 25 17:34:58 +0800 2013;3626471723493428;【现场直播】小不点（山人乐队）、姜少峰（自由即兴踢踏舞）、Kamila（加拿大歌者）三人的即兴合作！就在大外廊营8号厂房！ 我在这里:http://t.cn/z8ek6x3;2338630937;11;2;北京 西城区;4848;224;1945;[u'8b64ad19jw1e8yvmpuzymj218g0xcqie', u'8b64ad19jw1e8yvmvaqgij218g0xc13r']
+Thu Apr 18 18:45:42 +0800 2013;3568507461890326;吃饭！ 我在这里:http://t.cn/zj9J1BI;1626733153;11;1;北京 东城区;302;355;1926;[]
+Fri Nov 16 20:53:52 +0800 2012;3513094372154643;秋林的菜啊！好吃！[花心][花心][花心][花心] 我在#秋林菜馆# http://t.cn/zlglPB4;1434538050;11;6;北京 丰台区;7014;2998;17652;[u'55815042jw1dyx6fcyb3gj']
+Fri Nov 02 22:08:01 +0800 2012;3508039610760672;换到二哥这喝了 我在#秋林菜馆# http://t.cn/zlglPB4;1403186351;11;1000;北京;513;533;5000;[]

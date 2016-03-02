@@ -1,0 +1,4 @@
+time;id;text;uid;province;city;location;followers;friends
+Sun Jul 19 11:05:10 +0800 2015;3866274398040423;老爸朋友在琉璃厂办了小型个人画展，一家来看，老成还留了多年不练的“墨宝”，葫芦小朋友对水墨画颇不感冒，到处乱跑，潭哥累半死。。 http://t.cn/R7doEFa;1897558605;11;2;北京 西城区;816;404;2121;[u'711a724djw1eu7vflnkgvj20dc0hsq4w', u'711a724djw1eu7vfl9wvtj20dc0hsdhl', u'711a724djw1eu7vgkujdcj20dc0hsjt9', u'711a724djw1eu7vglbs4uj20hs0dcgng', u'711a724djw1eu7vgls3t3j20hs0dcac4', u'711a724djw1eu7vgki5bfj20dc0hstbc', u'711a724djw1eu7vgm8a0lj20dc0hs76u', u'711a724djw1eu7vgmmgajj20dc0hs3zv', u'711a724djw1eu7vgmzhbzj20hs0dctai']
+Tue Jun 19 19:58:05 +0800 2012;3458722153795260;我在这里：#(琉璃厂东街)#盗版软件害人啊，弄了半天的session plan白修改了，可是正版的么人给报销啊！！！ http://t.cn/zWZaQF0;2477397277;53;32;云南 丽江;210;209;1169;[]
+Wed Mar 28 13:40:43 +0800 2012;3428548998488074;我在这里:#融德画廊(琉璃厂东街)# http://t.cn/zOXBEmY;1740247351;22;2;吉林 吉林;252;99;612;[]
