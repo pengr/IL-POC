@@ -1,0 +1,2 @@
+time;user;text;score1;score2;score3
+01-02;annkinggood;没找到这家店，转半天，问民警都不知道，郁闷!;口味0(很差);环境0(很差);服务0(很差)

@@ -1,0 +1,8 @@
+time;id;text;uid;province;city;location;followers;friends
+Thu Jan 21 00:10:40 +0800 2016;3933513826719488;希望在这睡一夜，我也能变聪明点 http://t.cn/8stpHfb;2341460845;400;1000;海外;297;610;750;[u'8b8fdb6djw1f06ewpewxgj20qo1beanr']
+Thu Jun 25 00:19:19 +0800 2015;3857414551831592;日常 http://t.cn/8stpHfb;1875819005;81;1000;香港;143;52;392;[u'6fceb9fdjw1etfn0vsr1dj218g0xc472', u'6fceb9fdjw1etfn0x99i9j20xc18gwmo', u'6fceb9fdjw1etfn0yxmwcj20xc18g79u', u'6fceb9fdjw1etfn0zulssj20dc0hsgm4']
+Sat Oct 18 21:56:52 +0800 2014;3767144125049039;#北京马拉松# 第一次参加全程，我也来秀一下定妆照[挤眼]，不是典型跑者身材，也跑不太快，明天霾严重的话能安全完塞就好了，跑完就是PB[嘻嘻] @跑步小分队 @北京马拉松 @益动GPS @美瑞克斯中国 @adidasRunning @Compressport中国 @KalenjiRunning @Garmin中国 @X-BIONIC http://t.cn/8stpHfb;2696892630;13;7;河北 张家口;337;1673;6949;[u'a0bf50d6jw1elfnd095xvj20xc18g7f7', u'a0bf50d6jw1elfncmfxomj20xc18gak6', u'a0bf50d6jw1elfndcww95j20xc18gn79']
+Fri Apr 11 21:40:54 +0800 2014;3698286411906450;今天和爸走了好多路好累[泪]明早六点出门跟团去长城，早睡咯[月亮] ps: 这家酒店确实硬件太软蛋，但是纪晓岚，李鸿章，彭真都在这住过[酷] http://t.cn/8sCyX6I;1560062371;32;1;江苏 南京;225;188;674;[]
+Sat Mar 29 00:23:26 +0800 2014;3693253884397821;[爱你][爱你][爱你]@周小颖ZJ  我在这里:http://t.cn/8stpHfb;2273508841;23;1;黑龙江 哈尔滨;504;238;637;[u'8782fde9jw1eevxgbtl18j20ct0hs0v8']
+Sat Jun 27 01:49:10 +0800 2015;3858161938870969;抬起头向前走 请你别放松✊✊ http://t.cn/8stpHfb;1875819005;81;1000;香港;143;52;392;[]
+Thu Mar 27 14:09:23 +0800 2014;3692736966336274;分享图片 我在这里:http://t.cn/8stpHfb;2273508841;23;1;黑龙江 哈尔滨;504;238;637;[u'8782fde9jw1eeua2eejv7j218g0xcqft', u'8782fde9jw1eeua2hjfgtj20xc18g48y', u'8782fde9jw1eeua2lh3utj20xc18gqeb', u'8782fde9jw1eeua2o59kij20xc18gtiy', u'8782fde9jw1eeua2t1k6zj20xc18gdus', u'8782fde9jw1eeua2x4luxj20xc18gk5v', u'8782fde9jw1eeua35iivmj20xc18g7mp', u'8782fde9jw1eeua39ugcrj20xc18gqej', u'8782fde9jw1eeua3dm1h9j218g0xctlj']

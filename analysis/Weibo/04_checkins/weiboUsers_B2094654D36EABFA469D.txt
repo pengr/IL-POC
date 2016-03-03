@@ -1,0 +1,5 @@
+time;id;text;uid;province;city;location;followers;friends
+Mon Jul 13 06:08:37 +0800 2015;3864025438049004;我爱北京天安门！ http://t.cn/z8etwnN;5255753783;13;3;河北 秦皇岛;109;235;219;[u'005JGBEjjw1eu0q94qp2yj30xc18g44q', u'005JGBEjjw1eu0q95d223j318g0xctga', u'005JGBEjjw1eu0q95u9v1j318g0xck36', u'005JGBEjjw1eu0q96rhbvj30xc18gan0', u'005JGBEjjw1eu0q97y9l2j318g0xc110']
+Sun Apr 06 22:45:38 +0800 2014;3696490771663818;分享图片 我在#京御园宾馆#;2410637435;11;8;北京 海淀区;169;1305;1114;[u'8faf687bjw1ef697gjxjsj21jk15owwp', u'8faf687bjw1ef697hz00ij21jk15o7ie', u'8faf687bjw1ef697kbsrjj21jk15oqie', u'8faf687bjw1ef697m07wsj21jk15owvb', u'8faf687bjw1ef697mftrrj20dc0hs0uu', u'8faf687bjw1ef697n352xj20dc0hswgj']
+Tue Sep 24 21:37:28 +0800 2013;3626170363243550;有些事情只有心甘情愿才能自然而然. 我在这里:http://t.cn/z8etwnN;1784101863;22;8;吉林 白城;1335;358;897;[u'6a573be7jw1e8xx0rvlpkj20dw08wt9c', u'6a573be7jw1e8xx0tdfejj218g0x7alq']
+Mon Oct 22 07:43:39 +0800 2012;3503835815679529;北京，早！睡了一宿终于到了。住的宾馆楼下好多小吃[馋嘴][馋嘴]。精神焕发了。 http://t.cn/zlnLZVH;2168368237;31;5;上海 长宁区;8951;154;908;[u'813eac6djw1dy3n3gkb1xj']

@@ -1,0 +1,6 @@
+time;id;text;uid;province;city;location;followers;friends
+Thu Feb 26 20:34:47 +0800 2015;3814596277772976;难吃的卤煮，难吃的炒肝儿，难吃的炸灌肠，能做这么难吃！！会做就做，不会做别做。丢北京的脸，不说说我都难受。[生病] http://t.cn/zRArvhr;1778638725;11;8;北京 海淀区;53;33;92;[u'6a03df85jw1epn1cbbwa0j20qo0ez764', u'6a03df85jw1epn1cc0ghcj20ez0qomyb', u'6a03df85jw1epn1ccwzm3j20qo0ez75v', u'6a03df85jw1epn1cdm769j20ez0qoq4c', u'6a03df85jw1epn1cebp0cj20qo0ez3zt']
+Fri Oct 24 19:07:35 +0800 2014;3769275858678945;我和我的便当等人齐。 我在#天海老北京#;1291739243;11;1000;北京;3416;1978;2685;[u'4cfe606bjw1elmggpanzwj20zk0qo46p']
+Sat Aug 09 18:47:10 +0800 2014;3741729234315818;炸灌肠，卤煮，炖吊子。with @cream  http://t.cn/zRArvhr;2065364744;11;5;北京 朝阳区;442;347;5796;[u'7b1af708jw1ej6ks07pvpj218g18gk62']
+Fri Oct 04 16:35:40 +0800 2013;3629718291309690;午餐加晚饭[可爱] 我在这里:http://t.cn/zRArvhr;1803359471;32;2;江苏 无锡;338;618;1791;[u'6b7d14efjw1e998hhrga0j20f00qoq3z', u'6b7d14efjw1e998hw00u4j20qo0f0wfj']
+Sat May 12 18:48:18 +0800 2012;3444933858044570;我在这里: #天海老北京# http://t.cn/zORdqzf;1851638471;11;8;北京 海淀区;267;117;1242;[u'6e5dc2c7jw1dsvqas6es5j']
